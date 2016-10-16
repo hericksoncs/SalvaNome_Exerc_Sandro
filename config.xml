@@ -22,6 +22,11 @@
 	<platform name="android">
        <splash src="res/screen/android/batman.png" density="port-hdpi"/>
 	</platform>
+	<platform name="ios">
+    
+		<splash src="res/screen/android/batman.png" width="320" height="480"/>
+		
+	</platform>
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenWidth" value="546" />
 	<preference name="SplashScreenHeight" value="342" />
