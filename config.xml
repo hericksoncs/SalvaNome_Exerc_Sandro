@@ -22,10 +22,13 @@
 	<platform name="android">
        <splash src="res/screen/android/batman.png" density="port-hdpi"/>
 	</platform>
+	
 	<platform name="ios">
-    
-		<splash src="res/screen/android/batman.png" width="320" height="480"/>
-		
+  		<splash src="res/screen/ios/batman.png" width="320" height="480"/>
+	</platform>
+
+	<platform name="windows">
+		<splash src="res/screen/windows/batman.png" width="620" height="300"/>
 	</platform>
 	<preference name="SplashScreen" value="screen" />
 	<preference name="SplashScreenWidth" value="546" />
